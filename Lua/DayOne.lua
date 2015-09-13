@@ -24,6 +24,7 @@ function is_prime(num)
 			return false
 		end
 	end
+	return true
 end
 
 print(is_prime(33))
