@@ -68,3 +68,17 @@ end
 print(first_primes_ending_in_3(100))
 print '----'
 
+function for_loop(a, b, f)
+	if (a ~= b) then
+	f()
+
+	for_loop(a + 1, b, f)
+	end
+end
+
+function example()
+	print(os.clock())
+end
+
+
+for_loop(0, 100, example)
