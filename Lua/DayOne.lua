@@ -1,3 +1,4 @@
+--day one exercises
 
 function ends_in_3(num)
 
@@ -82,3 +83,4 @@ end
 
 
 for_loop(0, 100, example)
+print '----'
