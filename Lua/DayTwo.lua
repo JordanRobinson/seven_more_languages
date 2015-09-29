@@ -10,3 +10,5 @@
 --change the global metatable you discovered in the Find section earlier so that any time you try to add two arrays using the plus sign (e.g., a1 + a2), Lua concatenates them together using your concatenate() function
 
 
+--...lua is actually pretty boring, and I understood the concepts outlined by the book almost instantly
+-- so I basically stopped looking at lua here. If you're looking for solutions to the book or a pointer, sorry, but I can't help you :(
